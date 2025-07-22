@@ -12,7 +12,7 @@ table {
     overflow: hidden;
     border-radius: 12px;
 
-    background-color: #ececec;
+    border-spacing: 0px;
 }
 
 .table_1_head {
@@ -32,19 +32,12 @@ tbody tr:hover:not(:first-child) {
     background-color: #e6f7ff;
 }
 
-
-td {
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
+td,
 th {
-    text-align: center;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-align: center;
+    border: 1px solid #ececec;
 }
