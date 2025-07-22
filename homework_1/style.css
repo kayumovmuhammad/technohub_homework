@@ -1,0 +1,50 @@
+body {
+    background-color: #d7e4f7;
+}
+
+table {
+    /* Для того что-бы таблица была в центре*/
+    margin-top: 15%;
+    margin-right: auto;
+    margin-left: auto;
+
+    /* Для того что-бы у таблицы была закруглённая рамка */
+    overflow: hidden;
+    border-radius: 12px;
+
+    background-color: #ececec;
+}
+
+.table_1_head {
+    color: white;
+    background-color: #4150b5;
+}
+
+.even_row {
+    background-color: #f2f2f2;
+}
+
+.odd_row {
+    background-color: #ffffff;
+}
+
+tbody tr:hover:not(:first-child) {
+    background-color: #e6f7ff;
+}
+
+
+td {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+th {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

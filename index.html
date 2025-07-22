@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <h1>Блог о карьере</h1>
+        <ul>
+            <li><a href='https://google.com'>Google (в этой в вкладке)</a></li>
+            <li><a href='https://youtube.com' target='_blank'>Youtube (в новой вкладке)</a></li>
+            <li><a href='#application'>Перейти к заявке</a></li>
+            <li><a href='next.html'>Вторая страница</a></li>
+        </ul> 
+        <h2>
+            Как подать заявку на работу в ExampleCorp
+        </h2>
+        <p>
+            В этой статье вы узнаете, как подать заявку на работу через форму, а также ознакомиться с текущими
+            вакансиями
+        </p>
+        <h3>
+            Форма подачи заявки
+        </h3>
+        <form id='application'>
+            <fieldset>
+                <legend>
+                    Личная информация
+                </legend>
+                <br>
+
+                <div>
+                    <label>Полное имя:</label>
+                    <input name='fullname'>
+                </div>
+
+                <br>
+
+                <div>
+                    <label>Электронная почта:</label>
+                    <input name='email' type='email'>
+                </div>
+                <br>
+
+                <div>
+                    <label>Телефон:</label>
+                    <input name='phone-number' type='tel'>
+                </div>
+
+                <br>
+
+                <div>
+                    <label>Резуме:</label>
+                    <input name='resume-file' type='file'>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Информация о вакансии</legend>
+                <br>
+                <div>
+                    <label>Желаемая должность:</label>
+                    <select>
+                        <option>--Выберите--</option>
+                        <option>Frontend разработчик</option>
+                        <option>Backend разработчик</option>
+                        <option>UI/UX дизайнер</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label>Соправадительное сообщение:</label>
+                    <textarea rows='4' cols='40'></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type='submit' value='Отправить заявку'>
+                </div>
+                <br>
+            </fieldset>
+        </form>
+
+        <h3>Актуальные вакансии</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Должность</th>
+                    <th>Отдел</th>
+                    <th>Локации</th>
+                    <th>Срок подачи</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Frontend-разработчик</td>
+                    <td>Разработка</td>
+                    <td>Удалёно</td>
+                    <td>31 августа 2025</td>
+                </tr>
+
+                <tr>
+                    <td>Backend-разработчик</td>
+                    <td>Разработка</td>
+                    <td>Берлин</td>
+                    <td>15 сентебря 2025</td>
+                </tr>
+
+                <tr>
+                    <td>UI/UX-дизайнер</td>
+                    <td>Дизайнет</td>
+                    <td>Удалёно</td>
+                    <td>25 августа 2025</td>
+                </tr>
+
+            </tbody>
+        </table>
+        <h3>Преимущество работы с нами
+        </h3>
+        <ul>
+            <li>Удалённая работа</li>
+            <li>Поддержка обучения</li>
+            <li>Современный стэк технологий</li>
+        </ul>
+    </main>
+    <br>
+    <hr>
+    <br>
+
+    <footer>
+        <div>
+            Свазятся с нами: <a href='mailto:hr@examplecorp.com'>hr@examplecorp.com</a>
+        </div>
+
+        <br>
+        <div>
+            Или по телефону: <a href='tel:+992123456789'>+(992)-123-45-67-89</a>
+        </div>
+        <br>
+        <div>
+            © 2025 ExampleCorp
+        </div>
+
+        <br>
+    </footer>
+</body>
+
+</html>
