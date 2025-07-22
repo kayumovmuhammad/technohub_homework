@@ -15,7 +15,7 @@ table {
     border-spacing: 0px;
 }
 
-.table_1_head {
+thead {
     color: white;
     background-color: #4150b5;
 }
