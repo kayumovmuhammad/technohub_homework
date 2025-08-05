@@ -19,6 +19,7 @@
 }
 
 .start_heading {
+    padding: 10px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -63,6 +64,7 @@
     color: #ffffff;
     border-bottom: 1px solid transparent;
 }
+
 .navigation_link:hover {
     color: #c0392b;
     transition: 0.3s;
@@ -76,6 +78,7 @@
 h2 {
     line-height: 70px;
 }
+
 article {
     color: #555555;
     line-height: 27px;
@@ -83,4 +86,14 @@ article {
 
 .contents {
     margin: 10px 130px 30px 130px;
+}
+
+@media screen and (max-width: 620px) {
+    .navigation_menu {
+        display: none;
+    }
+
+    .contents {
+        margin: 10px 20px 30px 20px;
+    }
 }
