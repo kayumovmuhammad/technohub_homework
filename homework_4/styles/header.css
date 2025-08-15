@@ -1,0 +1,148 @@
+p,
+table {
+    margin: 20px 0px;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.max_width {
+    width: min(1750px, 100vw);
+    padding: 0px 20px;
+}
+
+header {
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    left: 0;
+}
+
+header .up {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header .up .first {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .up .first ul {
+    gap: 10px;
+}
+
+header .up .first ul li,
+header .up .first nav,
+header .up .first ul a,
+header .up .first ul {
+    height: 100%;
+}
+
+header .up .first ul a {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    color: #000;
+}
+
+header .up .first ul a:hover {
+    background-color: #04aa6d;
+    color: white;
+}
+
+
+.search_input_div {
+    position: relative;
+}
+
+.search_icon {
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+    right: 8px;
+}
+
+.search_input {
+    padding: 5px 15px;
+    width: 175px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.search_input:focus,
+.search_input:focus-visible,
+.search_input:focus-within {
+    outline: none;
+    border-color: rgba(0, 0, 0, 0.7);
+}
+
+header .up .second {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+header .up .second ul {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+header .up .second ul li {
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: black;
+}
+
+header .up .second ul li a {
+    color: inherit;
+}
+
+header .up .second ul li:hover {
+    background-color: #f1f1f1;
+}
+
+header .up .second button {
+    background-color: #04aa6d;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+
+header .down {
+    width: 100vw;
+    background-color: #282a35;
+    display: flex;
+    justify-content: center;
+}
+
+header .down ul {
+    display: flex;
+}
+
+header .down ul a:hover {
+    background-color: #04aa6d;
+}
+
+header .down ul a {
+    display: inline-block;
+    padding: 5px 15px;
+    color: #ffffff;
+}
