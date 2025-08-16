@@ -11,6 +11,7 @@
 }
 
 .side_bar {
+    overflow: auto;
     background-color: #e7e9eb;
     position: fixed;
     top: var(--header_height);
